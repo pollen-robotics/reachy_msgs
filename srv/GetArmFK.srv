@@ -1,0 +1,8 @@
+# A service call to carry out the forward kinematics computation for Reachy's arm
+# Joints request
+sensor_msgs/JointState joint_position
+
+---
+
+# The returned pose solution 
+geometry_msgs/Pose pose
