@@ -31,6 +31,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "srv/ManageFan.srv"
   "srv/GetJointsFullState.srv"
+
+  "srv/GetArmFK.srv"
+  "srv/GetArmIK.srv"
+
   "srv/SetCompliant.srv"
   "srv/GetOrbitaIK.srv"
 
