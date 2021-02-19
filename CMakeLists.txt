@@ -38,6 +38,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetCompliant.srv"
   "srv/GetOrbitaIK.srv"
 
+  "srv/SetZoomSpeed.srv"
+  "srv/ZoomCommand.srv"
+
   DEPENDENCIES std_msgs sensor_msgs geometry_msgs
 )
 
