@@ -6,5 +6,6 @@ sensor_msgs/JointState q0
 ---
 
 # The returned solution 
+bool success
 # position of each joints
 sensor_msgs/JointState joint_position
