@@ -6,5 +6,5 @@ geometry_msgs/Quaternion quat
 
 # The returned solution 
 bool success
-# position of each disks (in order: top/middle/bottom)
-sensor_msgs/JointState disk_pos
+# position of each disks
+sensor_msgs/JointState disk_position

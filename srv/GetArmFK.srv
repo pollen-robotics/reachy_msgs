@@ -4,5 +4,7 @@ sensor_msgs/JointState joint_position
 
 ---
 
-# The returned pose solution 
+# The returned solution 
+bool success
+# the returned pose solution 
 geometry_msgs/Pose pose
