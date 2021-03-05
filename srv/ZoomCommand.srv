@@ -1,6 +1,0 @@
-# Service to send command to the zoom of a given camera (left or right)
-# There are three zooming levels ('in', 'out', 'inter')
-# You can also perform homing
-string side
-string zoom_command
----
