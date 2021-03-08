@@ -1,6 +1,6 @@
 # A service call to carry out the inverse kinematics computation for Orbita
 # Quaternion request
-geometry_msgs/Quaternion quat
+geometry_msgs/Quaternion orientation
 
 ---
 
