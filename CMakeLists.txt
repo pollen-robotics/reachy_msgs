@@ -27,20 +27,21 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointTemperature.msg"
-  "msg/LoadSensor.msg"
+  "msg/ForceSensor.msg"
 
-  "srv/ManageFan.srv"
-  "srv/GetJointsFullState.srv"
+  "srv/GetJointFullState.srv"
+  "srv/SetJointCompliancy.srv"
 
   "srv/GetArmFK.srv"
   "srv/GetArmIK.srv"
 
-  "srv/SetCompliant.srv"
   "srv/GetOrbitaIK.srv"
   "srv/GetQuaternionTransform.srv"
 
-  "srv/SetZoomSpeed.srv"
-  "srv/ZoomCommand.srv"
+  "srv/SetCameraZoomLevel.srv"
+  "srv/SetCameraZoomSpeed.srv"
+
+  "srv/SetFanState.srv"
 
   DEPENDENCIES std_msgs sensor_msgs geometry_msgs
 )
