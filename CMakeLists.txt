@@ -28,6 +28,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointTemperature.msg"
   "msg/ForceSensor.msg"
+  "msg/FanState.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
