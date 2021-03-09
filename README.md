@@ -16,6 +16,7 @@ colcon build --packages-select reachy_msgs
 ## Messages
 * **ForceSensor.msg**
 * **JointTemperature.msg**
+* **FanState.msg**
 
 ## Services
 * **GetArmFK.srv** - Carry out the forward kinematics computation for Reachy's arm.
