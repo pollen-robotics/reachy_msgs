@@ -9,3 +9,4 @@ bool[] compliant
 float64[] goal_position
 float64[] speed_limit
 float64[] torque_limit
+PidGains[] pid_gain

@@ -29,9 +29,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointTemperature.msg"
   "msg/ForceSensor.msg"
   "msg/FanState.msg"
+  "msg/PidGains.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
+  "srv/SetJointPidGains.srv"
 
   "srv/GetArmFK.srv"
   "srv/GetArmIK.srv"
