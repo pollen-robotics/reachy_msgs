@@ -1,4 +1,4 @@
-# Reachy messages
+# Reachy 2021 messages
 
 Custom ROS2 messages and services used by Reachy's ROS2 packages.
 
