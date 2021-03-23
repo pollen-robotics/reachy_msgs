@@ -41,7 +41,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetOrbitaIK.srv"
   "srv/GetQuaternionTransform.srv"
 
+  "srv/GetCameraZoomLevel.srv"
   "srv/SetCameraZoomLevel.srv"
+  "srv/GetCameraZoomSpeed.srv"
   "srv/SetCameraZoomSpeed.srv"
 
   "srv/SetFanState.srv"
