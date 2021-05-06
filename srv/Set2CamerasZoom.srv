@@ -1,0 +1,7 @@
+# Service to set the zoom to both cameras ('left_eye' and 'right_eye')
+# The zoom is within the range [0-600]
+
+uint16 left_zoom
+uint16 right_zoom
+---
+bool success

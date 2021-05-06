@@ -1,0 +1,8 @@
+# Service to set the focus and zoom of a given camera ('left_eye' or 'right_eye')
+# The focus is within the range [0-500]
+# The zoom is within the range [0-600]
+string name
+uint16 focus
+uint16 zoom
+---
+bool success

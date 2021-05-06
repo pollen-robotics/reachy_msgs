@@ -1,0 +1,7 @@
+# Service to set the focus to both cameras ('left_eye' and 'right_eye')
+# The focus is within the range [0-500]
+
+uint16 left_focus
+uint16 right_focus
+---
+bool success
