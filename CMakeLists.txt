@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ForceSensor.msg"
   "msg/FanState.msg"
   "msg/PidGains.msg"
+  "msg/MobileBaseDirection.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
@@ -47,6 +48,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetCameraZoomSpeed.srv"
 
   "srv/SetFanState.srv"
+
+  "srv/SetMobileBaseMode.srv"
 
   DEPENDENCIES std_msgs sensor_msgs geometry_msgs
 )
