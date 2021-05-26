@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetCameraZoomSpeed.srv"
   "srv/GetCameraZoomFocus.srv"
   "srv/SetCameraZoomFocus.srv"
+  "srv/SetFocusState.srv"
 
   "srv/SetFanState.srv"
 
