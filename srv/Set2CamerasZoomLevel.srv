@@ -1,6 +1,0 @@
-# Service to send command to the zoom of both cameras ('left_eye' and 'right_eye')
-# There are three zooming levels ('in', 'out', 'inter')
-string left_zoom
-string right_zoom
----
-bool success
