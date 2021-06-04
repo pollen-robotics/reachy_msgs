@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FanState.msg"
   "msg/PidGains.msg"
   "msg/MobileBaseDirection.msg"
+  "msg/ZoomCommand.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
@@ -46,6 +47,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetCameraZoomLevel.srv"
   "srv/GetCameraZoomSpeed.srv"
   "srv/SetCameraZoomSpeed.srv"
+  "srv/GetCameraZoomFocus.srv"
+  "srv/SetCameraZoomFocus.srv"
+  "srv/SetFocusState.srv"
 
   "srv/SetFanState.srv"
 
