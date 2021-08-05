@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FanState.msg"
   "msg/PidGains.msg"
   "msg/ZoomCommand.msg"
+  "msg/Gripper.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
