@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PidGains.msg"
   "msg/MobileBaseDirection.msg"
   "msg/ZoomCommand.msg"
+  "msg/Gripper.msg"
 
   "srv/GetJointFullState.srv"
   "srv/SetJointCompliancy.srv"
