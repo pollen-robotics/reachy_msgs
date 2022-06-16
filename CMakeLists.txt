@@ -53,6 +53,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "srv/SetMobileBaseMode.srv"
 
+  "srv/GetReachyModel.srv"
+
   DEPENDENCIES std_msgs sensor_msgs geometry_msgs
 )
 
